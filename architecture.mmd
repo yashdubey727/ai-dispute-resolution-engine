@@ -1,0 +1,37 @@
+flowchart LR
+
+  A[Dispute Event Ingest<br/>Card network + merchant evidence]
+  B[Feature Builder<br/>Customer, transaction, merchant signals]
+
+  C[Dispute Type Classifier<br/>NLP labeling]
+  D[Fraud Risk Model<br/>LogReg baseline → GBDT extension]
+
+  E[Decision Engine<br/>Threshold Policy t1 / t2]
+  F[Policy & Risk Governance<br/>Audit rules, overrides, compliance]
+
+  G[Auto-Approve<br/>Refund Workflow]
+  H[Manual Review<br/>Risk Ops Queue]
+  I[Auto-Reject<br/>Reject + Evidence Template]
+
+  J[Monitoring Layer<br/>AUC, FPR, leakage, SLA]
+  K[Merchant Intelligence Dashboard<br/>Dispute rate, savings, trends]
+
+  L[Analyst Feedback Loop<br/>Labels, adjudications]
+
+  A --> B
+  B --> C
+  B --> D
+
+  C --> E
+  D --> E
+
+  E --> F
+  F --> G
+  F --> H
+  F --> I
+
+  H --> L
+  L --> D
+
+  E --> J
+  J --> K
