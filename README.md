@@ -18,6 +18,11 @@
 ![Automation Curve](portfolio_automation_rate.png)
 
 ---
+## Live Demo
+
+Streamlit App: https://ai-dispute-resolution-engine-zho3kcfunlajv7jep9b7bs.streamlit.app/
+
+---
 
 ### Interactive Threshold Simulation
 ![Threshold Simulation](assets/threshold_simulation.gif)
