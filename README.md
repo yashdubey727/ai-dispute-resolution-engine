@@ -2,8 +2,8 @@
 
 An AI-powered dispute automation system that simulates how payment platforms (e.g., Stripe) can automatically triage dispute cases using machine learning risk scoring and threshold optimization to balance fraud risk, operational costs, and automation efficiency.
 
-Live Demo  
-https://ai-dispute-resolution-engine.streamlit.app
+Live Demo  [
+https://ai-dispute-resolution-engine.streamlit.app](https://ai-dispute-resolution-engine-zho3kcfunlajv7jep9b7bs.streamlit.app/)
 
 ---
 
