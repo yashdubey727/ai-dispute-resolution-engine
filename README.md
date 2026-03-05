@@ -125,7 +125,7 @@ https://ai-dispute-resolution-engine.streamlit.app
 
 ---
 
-# Project Structure
+# Optimization 
 
 Optimal threshold discovered:
 
@@ -133,42 +133,6 @@ Optimal threshold discovered:
 
 ---
 
-# Economic Simulation Results
-
-Automation Rate  
-**64.05% of disputes automatically resolved**
-
-Operational Savings  
-**$42.6M monthly**
-
-Fraud Leakage Cost  
-**$15.4M monthly**
-
-Wrong Rejection Cost  
-**$0.12M monthly**
-
-Net Economic Value  
-**$27.1M per month**
-
-Annualized Impact  
-**~$325M per year**
-
-These results demonstrate how AI-driven workflow automation can significantly improve operational efficiency while managing fraud exposure.
-
----
-
-# Interactive Dashboard
-
-The project includes a Streamlit application that allows users to:
-
-• Adjust automation thresholds  
-• Visualize fraud vs automation tradeoffs  
-• Simulate operational impact in real time  
-
-Demo  
-https://ai-dispute-resolution-engine.streamlit.app
-
----
 
 # Project Structure
 ai-dispute-resolution-engine
