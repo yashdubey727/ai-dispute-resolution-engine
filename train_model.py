@@ -70,3 +70,4 @@ df1.to_excel("stripe_disputes_simulated.xlsx", index=False)
 
 df2 = pd.read_csv("scored_disputes_test.csv")
 df2.to_excel("scored_disputes_test.xlsx", index=False)
+print("hello")
